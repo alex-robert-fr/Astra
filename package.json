@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "description": "Astra and an ultra-light CMS (<10 MB) for restaurants and bars, simple, fast and with no technical skills required. ",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alex-robert-fr/Astra.git"
@@ -15,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/alex-robert-fr/Astra/issues"
   },
-  "homepage": "https://github.com/alex-robert-fr/Astra#readme"
+  "homepage": "https://github.com/alex-robert-fr/Astra#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
