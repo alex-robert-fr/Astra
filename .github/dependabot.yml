@@ -5,8 +5,8 @@
 
 version: 2
 updates:
-  - package-ecosystem: "pip"
-    directory: "./"
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
       interval: "daily"
       time: "08:00"
