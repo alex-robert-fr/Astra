@@ -4,7 +4,7 @@
   "description": "Astra and an ultra-light CMS (<10 MB) for restaurants and bars, simple, fast and with no technical skills required. ",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/back/server.js",
     "test": "jest"
   },
   "jest": {
@@ -26,6 +26,7 @@
     "express": "^4.19.2"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
